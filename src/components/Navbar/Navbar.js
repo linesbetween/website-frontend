@@ -5,7 +5,7 @@ import "./Navbar.css";
 import { SubCategory } from "./SubCategory";
 
 export const Navbar = ({ signedIn }) => {
-  signedIn = false;
+  signedIn = true;
 
   const UserControls = () => {
     const className = "ml-auto link white hover-green hover-animate h2";
